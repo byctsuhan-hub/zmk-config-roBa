@@ -117,9 +117,9 @@
         MOUSE {
             bindings = <
 &kp LEFT_GUI      &none           &kp UP_ARROW    &none            &none                           &none              &mkp MB3  &none     &kp TAB  &kp RIGHT_ALT
-&kp LEFT_SHIFT    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none   &trans          &trans  &kp RIGHT_SHIFT    &mkp MB1  &mkp MB2  &kp TAB  &kp RIGHT_ALT
-&kp LEFT_CONTROL  &none           &none           &none            &none   &kp ESCAPE      &trans  &kp RIGHT_CONTROL  &mkp MB4  &mkp MB5  &none    &kp RIGHT_CONTROL
-&none             &trans          &trans          &trans           &trans  &trans          &trans  &kp RIGHT_GUI                                   &trans
+&kp LEFT_GUI      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none   &trans          &trans  &kp RIGHT_SHIFT    &mkp MB1  &mkp MB2  &kp TAB  &kp RIGHT_ALT
+&kp LEFT_SHIFT    &kp LC(X)       &kp LC(C)       &kp LC(V)        &none   &kp ESCAPE      &trans  &kp RIGHT_CONTROL  &mkp MB4  &mkp MB5  &none    &kp RIGHT_CONTROL
+&kp LEFT_CONTROL  &trans          &trans          &trans           &trans  &trans          &trans  &kp RIGHT_GUI                                   &trans
             >;
         };
 
